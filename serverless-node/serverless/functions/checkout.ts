@@ -1,7 +1,7 @@
 import { APIGatewayProxyHandler } from 'aws-lambda'
 
 export const handle: APIGatewayProxyHandler = async event => {
-  const data = event.body
+  const data = event.body;
 
   return {
     statusCode: 200,
@@ -9,5 +9,5 @@ export const handle: APIGatewayProxyHandler = async event => {
     headers: {
       'Content-Type': 'application/json'
     }
-  }  
+  }
 }
