@@ -1,0 +1,26 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "offline": "sls offline",
+    "deploy": "sls deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "serverless": "^2.39.2"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.76",
+    "aws-lambda": "^1.0.6",
+    "serverless-offline": "^7.0.0",
+    "serverless-webpack": "^5.4.2",
+    "ts-loader": "^9.1.1",
+    "typescript": "^4.2.4",
+    "webpack": "^5.36.2",
+    "webpack-node-externals": "^3.0.0"
+  }
+}
